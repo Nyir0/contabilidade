@@ -20,6 +20,15 @@
 
 body {
   margin: 0 5vw;
+  background-color: #fff8fb;
+}
+
+button {
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
 }
 
 footer{
