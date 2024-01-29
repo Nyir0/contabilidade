@@ -33,6 +33,18 @@ header button{
 @media screen and (max-width: 768px){
     header{
         position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    #open-menu{
+        position: absolute;
+        left: 0vw;
+        top: 2vh;
+        z-index: 99;
+    }
+    #menu-mobile{
+        z-index: 100;
+        transition: left .5s linear;
     }
     header nav{
         width: 15rem;
