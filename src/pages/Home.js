@@ -3,7 +3,7 @@ export default function Home() {
         <>
         <main className="flex items-center justify-center pt-14">
             <div className="w-[30rem] h-80 relative bg-[var(--black-light)] mr-32">
-                <img className="w-[30rem] left-12 bottom-12" src="./images/banner1.webp" alt=""/>
+                <img className="w-[30rem] absolute left-12 bottom-12" src="./images/banner1.webp" alt=""/>
             </div>
             <div className="w-[40vw] pb-24">
                 <h1 className="uppercase mb-4">A <span className="text-[var(--yellow-base)]">Leal contabilidade</span> é</h1>
