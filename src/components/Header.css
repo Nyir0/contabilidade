@@ -30,13 +30,23 @@ header button{
     font-size: 20px;
 }
 
-@media screen and (max-width: 997px) {
+@media screen and (max-width: 1200px) {
+    header img{
+        width: 7.5rem;
+    }
     header ul li, button{
         font-size: .75rem !important;
     }
-    button{
-        padding: .5rem .5rem !important;
+    header ul li{
+        margin: 0 1.5rem;
     }
+    button{
+        padding: .75rem 1.5rem !important;
+    }
+    .h-80{
+        height: 13rem;
+    }
+    
 }
 
 @media screen and (max-width: 768px){

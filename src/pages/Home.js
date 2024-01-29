@@ -1,7 +1,7 @@
 export default function Home() {
     return(
         <>
-        <main className="flex items-center justify-center pt-14">
+        <main className="flex items-center justify-center pt-14 max-lg:pt-2">
             <div className="w-[30rem] h-80 relative bg-[var(--black-light)] mr-32">
                 <img className="w-[30rem] absolute left-12 bottom-12" src="./images/banner1.webp" alt=""/>
             </div>
