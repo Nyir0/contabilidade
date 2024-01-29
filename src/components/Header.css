@@ -31,9 +31,6 @@ header button{
 }
 
 @media screen and (max-width: 1200px) {
-    header img{
-        width: 7.5rem;
-    }
     header ul li, button{
         font-size: .75rem !important;
     }
@@ -43,8 +40,8 @@ header button{
     button{
         padding: .75rem 1.5rem !important;
     }
-    .h-80{
-        height: 13rem;
+    main .h-80{
+        height: 15rem;
     }
     
 }
@@ -71,7 +68,7 @@ header button{
         padding-top: 1rem;
         position: fixed;
         top: 0;
-        left: 0;
+        left: -245px;
         background-color: var(--yellow-base);
         height: 100vh;
         box-shadow: 2.5px 0px 5px rgb(141, 141, 141);
@@ -80,7 +77,6 @@ header button{
         position: absolute;
         top: 0;
         right: 0;
-        width: 50px;
     }
     header nav ul{
         display: flex;
@@ -92,6 +88,7 @@ header button{
     header nav ul li{
         background-color: transparent;
         margin: 2.5rem 2rem;
+        font-size: 1rem !important;
     }
     nav ul li a{
         background-color: transparent;

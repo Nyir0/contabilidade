@@ -36,7 +36,7 @@ export default function Header(){
                 <img id="open-menu" src="./images/icons/hamburguer.svg" alt="" width={60} height={60}/>
                 <img src="./logo.webp" alt="" width={100} height={100}/>
                 <nav id="menu-mobile">
-                    <img id="close-menu" src="./images/icons/close-menu.svg" alt="" />
+                    <img id="close-menu" src="./images/icons/close-menu.svg" alt="" width={40}/>
                     <ul className="flex">
                         <li>
                             <a href="#">
