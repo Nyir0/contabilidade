@@ -30,6 +30,12 @@ header button{
     font-size: 20px;
 }
 
+#btn-page-down:hover{
+    cursor:pointer;
+    transition: background-color 0.35s linear;
+    background-color: #ffd84b;
+}
+
 @media screen and (max-width: 1200px) {
     header ul li, button{
         font-size: .75rem !important;

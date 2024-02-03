@@ -12,6 +12,9 @@ export default function Home() {
                 </p>
             </div>
         </main>
+        <div id="btn-page-down" className="bg-[var(--yellow-base)] absolute right-40 rounded-full p-3">
+            <img src="./images/icons/arrow-down.svg" alt="" width={75} height={75}/>
+        </div>
         </>
     )
 }
