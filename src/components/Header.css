@@ -30,9 +30,12 @@ header button{
     font-size: 20px;
 }
 
-#btn-page-down:hover{
+#btn-page-down{
     cursor:pointer;
     transition: background-color 0.35s linear;
+}
+
+#btn-page-down:hover{
     background-color: #ffd84b;
 }
 
