@@ -3,8 +3,11 @@ import "../components/Article.css";
 export default function Article(){
     return(
         <>
-        <section id="articles" className="mt-28">
-            <h2>Artigos</h2>
+        <section id="articles" className="mt-28 max-md:mt-5">
+            <div className="flex w-full justify-between items-end">
+                <h2>Artigos</h2>
+                <span id="all-articles">Ver todos</span>
+            </div>
             <div className="card">
                 <section>
                     <img className="w-full" src="./images/art1.webp" alt="" />

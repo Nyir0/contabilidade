@@ -5,6 +5,29 @@ h2{
     font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 1.75rem;
+    }
+}
+
+#all-articles{
+    font-size: 1.5rem;
+    color:var(--yellow-base);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #all-articles{
+        font-size: 1.5rem;
+        color:var(--yellow-gold);padding-bottom: 5px;
+    }
+}
+
+#all-articles:hover{
+    color:var(--yellow-gold);
+}
+
 #articles .card{
     display: flex;
     width: 85vw;
@@ -12,9 +35,24 @@ h2{
     border-top: 3px solid var(--yellow-gold);
 }
 
+@media screen and (max-width:768px) {
+    #articles .card{
+        border-top: 2px solid var(--yellow-gold);
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
 #articles section {
     min-width: 360px;
     margin: 1.5rem 3rem 1.5rem 0;
+}
+
+@media screen and (max-width:768px) {
+    #articles section {
+        min-width: 300px;
+        margin: 1.5rem 3rem 1.5rem 0;
+    }
 }
 
 /* Estilo da barra de rolagem */
