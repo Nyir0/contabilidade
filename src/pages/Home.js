@@ -1,4 +1,5 @@
 import Article from '../components/Article';
+import Services from '../components/Services';
 
 export default function Home() {
     return(
@@ -18,6 +19,7 @@ export default function Home() {
             <img src="./images/icons/arrow-down.svg" alt="" width={50} height={50}/>
         </div>
         <Article />
+        <Services />
         </>
     )
 }

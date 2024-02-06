@@ -1,0 +1,54 @@
+h2{
+    font-size: 2.5rem;
+    color:var(--yellow-gold);
+    font-weight: 500;
+}
+
+#banner-2{
+    margin-left: -8rem;
+    width: 100vw;
+    height: 55vh;
+    max-width: unset;
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    width: 35%;
+    height: 8rem;
+    margin: .5rem 1rem 1rem;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+}
+
+.services-card:hover{
+    transform: scale(1.05);
+}
+
+.services-card:hover .service-link{
+    color:var(--yellow-gold);
+}
+
+.services-card .text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.service-link{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: color .3s linear;
+}
