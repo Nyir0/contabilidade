@@ -24,13 +24,23 @@ h1{
   font-size: 2.5rem;
 }
 
+h3{
+  font-size: 2rem;
+}
+
 body {
   margin: 0 7.5rem;
   background-color: #fff8fb;
 }
 
-button {
-  cursor: pointer;
+button{
+  text-transform: uppercase;
+  background-color: var(--yellow-base);
+  color: var(--black-base);
+  border:none;
+  border-radius: 50px;
+  padding: 1.5rem 2rem;
+  font-size: 20px;
 }
 
 a{

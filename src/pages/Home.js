@@ -1,5 +1,6 @@
 import Article from '../components/Article';
 import Services from '../components/Services';
+import Footer from '../components/Footer';
 
 export default function Home() {
     return(
@@ -20,6 +21,14 @@ export default function Home() {
         </div>
         <Article />
         <Services />
+        <section className='flex flex-col items-center border-b-2 border-b-[var(--yellow-gold)] pb-8 mb-14'>
+            <h2 className='text-[var(--yellow-gold)] text-center'>Nosso time de contadores está pronto para apoiar você</h2>
+            <p className='text-center text-2xl font-normal my-10'>
+                Nosso time de contadores está pronto para apoiar você em todas as suas necessidades contábeis. Com profissionais altamente qualificados e experientes, estamos dedicados a oferecer soluções personalizadas que atendam às especificidades do seu negócio. Seja para lidar com complexidades fiscais, otimizar processos contábeis ou fornecer orientação estratégica, nossa equipe está comprometida em garantir a precisão e a conformidade em cada etapa. Estamos aqui para simplificar o seu caminho no mundo da contabilidade, permitindo que você concentre sua energia no crescimento e no sucesso de sua empresa. Conte conosco para ser seu parceiro confiável e impulsionar o desenvolvimento sustentável do seu negócio.
+            </p>
+            <button className='uppercase px-32'>Fale com um representante</button>
+        </section>
+        <Footer />
         </>
     )
 }

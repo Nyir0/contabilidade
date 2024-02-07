@@ -1,0 +1,15 @@
+footer{
+    margin-left: -8rem;
+    width: 99vw;
+    padding: 3rem 7.5rem;
+}
+
+footer span{
+    font-size: 22px;
+    color:white !important;
+}
+
+footer div{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

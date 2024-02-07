@@ -20,16 +20,6 @@ header ul li{
     margin: 0 3rem;
 }
 
-header button{
-    text-transform: uppercase;
-    background-color: var(--yellow-base);
-    color: var(--black-base);
-    border:none;
-    border-radius: 50px;
-    padding: 1.5rem 2rem;
-    font-size: 20px;
-}
-
 #btn-page-down{
     cursor:pointer;
     transition: background-color 0.35s linear;
