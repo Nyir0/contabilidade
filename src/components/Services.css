@@ -5,10 +5,24 @@
     max-width: unset;
 }
 
+@media screen and (max-width: 767px) {
+    #banner-2{
+        margin-left: -1rem;
+        width: 102vw;
+        height: 23vh;
+    }
+}
+
 #services{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:767px) {
+    #services{
+        flex-direction: column;
+    }
 }
 
 .services-card{
@@ -27,12 +41,31 @@
     transition: transform 0.3s linear;
 }
 
+@media screen and (max-width: 767px) {
+    .services-card{
+        width: 92%;
+        height: 10rem;  
+    }
+}
+
 .services-card:hover{
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 767px) {
+    .services-card:hover{
+        transform: unset;    
+    }
+}
+
 .services-card:hover .service-link{
     color:var(--yellow-gold);
+}
+
+@media screen and (max-width: 767px) {
+    .services-card:hover .service-link{
+        color:unset;
+    }
 }
 
 .services-card .text{

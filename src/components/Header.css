@@ -31,7 +31,7 @@ header ul li{
 
 @media screen and (max-width: 1200px) {
     header ul li, button{
-        font-size: .75rem !important;
+        font-size: .75rem;
     }
     header ul li{
         margin: 0 1.5rem;

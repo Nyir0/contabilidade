@@ -1,3 +1,4 @@
+import Copyright from "../components/Copyright";
 import "./Footer.css";
 
 export default function Footer(){
@@ -20,6 +21,7 @@ export default function Footer(){
                     <br/>
                     <span>leal.contabilidade@hotmail.com</span>
                 </div>
+                <Copyright />
             </footer>
         </>
     )

@@ -18,8 +18,8 @@ export default function Services(){
     return(
         <>
         <img id="banner-2" className="my-10 left-0" src="./images/banner2.webp" alt="" />
-        <section className="my-20">
-            <h2 className='w-full text-center mt-20 mb-8'>Soluções para nossos clientes</h2>
+        <section className="my-20 max-sm:my-12">
+            <h2 className='w-full text-center mt-20 max-sm:my-3 mb-8'>Soluções para nossos clientes</h2>
             <div id="services">
                 {RenderServices}
             </div>
