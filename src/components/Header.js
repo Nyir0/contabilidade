@@ -11,17 +11,17 @@ export default function Header(){
                     <img src="./logo.webp" alt="" width={200} height={200}/>
                     <ul className="flex">
                         <li>
-                            <a href="#">
+                            <a href="/servicos">
                                 Serviços
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/quem-somos">
                                 Quem Somos
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/contatos">
                                 Contatos
                             </a>
                         </li>
@@ -39,17 +39,22 @@ export default function Header(){
                     <img id="close-menu" src="./images/icons/close-menu.svg" alt="" width={40}/>
                     <ul className="flex">
                         <li>
-                            <a href="#">
+                            <a href="/">
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/servicos">
                                 Serviços
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/quem-somos">
                                 Quem Somos
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/contatos">
                                 Contatos
                             </a>
                         </li>
