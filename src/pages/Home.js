@@ -1,7 +1,9 @@
 import Article from '../components/Article';
 import Services from '../components/Services';
+import '../utils/Zap';
 
 export default function Home() {
+
     return(
         <>
         <main className="flex items-center justify-center pt-14 max-lg:pt-2 max-sm:flex-col">
@@ -25,7 +27,7 @@ export default function Home() {
             <p className='text-center text-2xl max-sm:text-lg max-sm:text-justify max-sm:px-5 font-normal my-10'>
                 Nosso time de contadores está pronto para apoiar você em todas as suas necessidades contábeis. Com profissionais altamente qualificados e experientes, estamos dedicados a oferecer soluções personalizadas que atendam às especificidades do seu negócio. Seja para lidar com complexidades fiscais, otimizar processos contábeis ou fornecer orientação estratégica, nossa equipe está comprometida em garantir a precisão e a conformidade em cada etapa. Estamos aqui para simplificar o seu caminho no mundo da contabilidade, permitindo que você concentre sua energia no crescimento e no sucesso de sua empresa. Conte conosco para ser seu parceiro confiável e impulsionar o desenvolvimento sustentável do seu negócio.
             </p>
-            <button className='uppercase px-32 max-sm:text-4xl'>Fale com um representante</button>
+            <button id="zap-btn" className='uppercase px-32 max-sm:text-4xl'>Fale com um representante</button>
         </section> 
         </>
     )

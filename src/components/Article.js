@@ -3,7 +3,7 @@ import Articles from "../data/Articles.js";
 
 export default function Article(){
     const DataArticles = Articles.map((article, index) => (
-        <section>
+        <section key={index}>
             <img className="w-full" src={article.img} alt="" />
             <div className="bg-[var(--yellow-base)] p-5">
                 <p className="text-center">

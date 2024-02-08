@@ -3,8 +3,8 @@ import DataServices from '../data/Services';
 
 export default function Services(){
 
-    const RenderServices = DataServices.map((text) => (
-        <section className='services-card'>
+    const RenderServices = DataServices.map((text, index) => (
+        <section key={index} className='services-card'>
             <span className='text'>{text}</span>
             <div className='flex justify-end'>
                 <span className='service-link'>
