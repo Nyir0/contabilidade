@@ -1,6 +1,18 @@
 import "../components/Article.css";
+import Articles from "../data/Articles.js";
 
 export default function Article(){
+    const DataArticles = Articles.map((article, index) => (
+        <section>
+            <img className="w-full" src={article.img} alt="" />
+            <div className="bg-[var(--yellow-base)] p-5">
+                <p className="text-center">
+                {article.text}
+                </p>
+            </div>
+        </section>
+    ))
+
     return(
         <>
         <section id="articles" className="mt-28 max-md:mt-5">
@@ -9,38 +21,7 @@ export default function Article(){
                 <span id="all-articles">Ver todos</span>
             </div>
             <div className="card">
-                <section>
-                    <img className="w-full" src="./images/art1.webp" alt="" />
-                    <div className="bg-[var(--yellow-base)] p-5">
-                        <p className="text-center">
-                        O MEI é essencial para empresas, simplificando a formalização, oferecendo benefícios previdenciários e viabilizando o acesso a crédito, fortalecendo a estabilidade financeira e o crescimento sustentável.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <img className="w-full" src="./images/art2.webp" alt="" />
-                    <div className="bg-[var(--yellow-base)] p-5">
-                        <p className="text-center">
-                        O MEI é essencial para empresas, simplificando a formalização, oferecendo benefícios previdenciários e viabilizando o acesso a crédito, fortalecendo a estabilidade financeira e o crescimento sustentável.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <img className="w-full" src="./images/art3.webp" alt="" />
-                    <div className="bg-[var(--yellow-base)] p-5">
-                        <p className="text-center">
-                        O MEI é essencial para empresas, simplificando a formalização, oferecendo benefícios previdenciários e viabilizando o acesso a crédito, fortalecendo a estabilidade financeira e o crescimento sustentável.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <img className="w-full" src="./images/art1.webp" alt="" />
-                    <div className="bg-[var(--yellow-base)] p-5">
-                        <p className="text-center">
-                        O MEI é essencial para empresas, simplificando a formalização, oferecendo benefícios previdenciários e viabilizando o acesso a crédito, fortalecendo a estabilidade financeira e o crescimento sustentável.
-                        </p>
-                    </div>
-                </section>
+                {DataArticles}
             </div>
         </section>
         </>
