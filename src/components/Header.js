@@ -1,5 +1,6 @@
 import '../components/Header.css';
 import '../utils/Menu.js';
+import '../utils/Zap';
 import $ from 'jquery';
 
 export default function Header(){
@@ -27,7 +28,7 @@ export default function Header(){
                         </li>
                     </ul>
                 </nav>
-                <button>Abra sua empresa</button>
+                <button id="zap-btn1">Abra sua empresa</button>
             </header>
         )
     }else{
