@@ -1,0 +1,11 @@
+#services{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-column-gap: 2%;
+}
+
+.services-card{
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
