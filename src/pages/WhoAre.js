@@ -1,4 +1,4 @@
-export default function Quem_somos(){
+export default function WhoAre(){
     return(
         <>
         <h1 className="text-[var(--yellow-gold)] max-sm:text-center">QUEM SOMOS</h1>
