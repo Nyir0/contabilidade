@@ -18,6 +18,7 @@ export default function Services(){
 
     return(
         <section className="h-auto mb-20">
+            <h2 className='text-center mb-5 max-sm:text-center max-sm:mb-5'>Fale conosco e faça um orçamento de nossos serviços</h2>
             <div id='services'>
                 {RenderServices}
             </div>
