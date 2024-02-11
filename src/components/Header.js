@@ -12,6 +12,11 @@ export default function Header(){
                     <img src="./logo.webp" alt="" width={200} height={200}/>
                     <ul className="flex">
                         <li>
+                            <a href="/">
+                                início
+                            </a>
+                        </li>
+                        <li>
                             <a href="/servicos">
                                 Serviços
                             </a>
@@ -41,7 +46,7 @@ export default function Header(){
                     <ul className="flex">
                         <li>
                             <a href="/">
-                                Inicio
+                                Início
                             </a>
                         </li>
                         <li>
