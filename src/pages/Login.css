@@ -1,0 +1,40 @@
+#section-form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem;
+    border-radius: 15px;
+    margin: 5rem 0;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 1px 1px 8px gray;
+}
+
+@media screen and (max-width: 768px) {
+    form{
+        width: 90%;
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+}
+
+input{
+    width: 75%;
+    border: 3px solid white;
+    margin: 1rem 0;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    input{
+        width: 100%;
+        margin: 0 0 3rem;
+    }
+}
