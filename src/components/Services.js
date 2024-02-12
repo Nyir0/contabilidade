@@ -4,7 +4,7 @@ import DataServices from '../data/Services';
 export default function Services(){
 
     const RenderServices = DataServices.map((text, index) => (
-        <section key={index} className='services-card'>
+        <section key={index} className='services-card-home'>
             <span className='text'>{text}</span>
             <div className='flex justify-end'>
                 <span className='service-link'>
@@ -20,7 +20,7 @@ export default function Services(){
         <img id="banner-2" className="my-10 left-0" src="./images/banner2.webp" alt="" />
         <section className="my-20 max-sm:my-12">
             <h2 className='w-full text-center mt-20 max-sm:my-3 mb-8'>Soluções para nossos clientes</h2>
-            <div id="services">
+            <div id="services-home">
                 {RenderServices}
             </div>
         </section>

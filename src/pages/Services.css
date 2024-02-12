@@ -1,7 +1,8 @@
 #services{
     display: grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(3, 32%);
     grid-column-gap: 2%;
+    align-items: center;
 }
 
 @media screen and (max-width:768px) {
@@ -14,8 +15,18 @@
 
 .services-card{
     width: 100%;
-    margin-right: 5px;
-    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    height: 8rem;
+    margin: 0 0 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s linear;
 }
 
 @media screen and (max-width:768px) {
